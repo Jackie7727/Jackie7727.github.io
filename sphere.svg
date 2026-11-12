@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="presentation">
+  <defs>
+    <linearGradient id="orange-base" x1="16" y1="10" x2="82" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC67F"/>
+      <stop offset=".38" stop-color="#F8A44C"/>
+      <stop offset=".72" stop-color="#E98936"/>
+      <stop offset="1" stop-color="#CF6A26"/>
+    </linearGradient>
+    <radialGradient id="soft-key" cx="30" cy="24" r="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF5DF" stop-opacity=".40"/>
+      <stop offset=".28" stop-color="#FFE1B7" stop-opacity=".26"/>
+      <stop offset=".72" stop-color="#FFD09A" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#FFD09A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lower-shade" x1="43" y1="39" x2="86" y2="89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#AF551E" stop-opacity="0"/>
+      <stop offset=".58" stop-color="#AF551E" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#994719" stop-opacity=".28"/>
+    </linearGradient>
+    <radialGradient id="cool-bounce" cx="49" cy="96" r="52" gradientTransform="matrix(1 0 0 .18 0 78.72)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BDE8E2" stop-opacity=".04"/>
+      <stop offset=".12" stop-color="#BDE8E2" stop-opacity=".025"/>
+      <stop offset=".30" stop-color="#BDE8E2" stop-opacity=".007"/>
+      <stop offset=".55" stop-color="#BDE8E2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#BDE8E2" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="sphere-clip">
+      <circle cx="48" cy="48" r="47.5"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#sphere-clip)">
+    <circle cx="48" cy="48" r="47.5" fill="url(#orange-base)"/>
+    <circle cx="48" cy="48" r="47.5" fill="url(#soft-key)"/>
+    <circle cx="48" cy="48" r="47.5" fill="url(#lower-shade)"/>
+    <circle cx="48" cy="48" r="47.5" fill="url(#cool-bounce)"/>
+  </g>
+</svg>
